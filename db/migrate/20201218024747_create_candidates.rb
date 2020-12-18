@@ -10,7 +10,7 @@ class CreateCandidates < ActiveRecord::Migration[6.0]
       t.integer :issues_id
       t.integer :thumbs_up
       t.integer :thumbs_down
-
+  
       t.timestamps
     end
   end
