@@ -4,4 +4,9 @@ class Api::UsersController < ApplicationController
     @users = User.all
     render "index.json.jb"
   end
+
+  def show
+    @message = "users show action"
+    render "show.json.jb"
+  end
 end
