@@ -15,5 +15,7 @@ Rails.application.routes.draw do
     get "/users/:id" => "users#show"
     post "/users/" => "users#create"
     patch "/users/:id" => "users#update"
+
+    post "/sessions" => "sessions#create"
   end
 end
