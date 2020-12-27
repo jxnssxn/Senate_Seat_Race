@@ -11,6 +11,7 @@ Rails.application.routes.draw do
     get "/issues/" => "issues#index"
     get "/issues/:id" => "issues#show"
 
+    get "/users/" => "users#index"
 
   end
 end
