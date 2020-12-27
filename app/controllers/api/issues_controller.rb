@@ -6,7 +6,8 @@ class Api::IssuesController < ApplicationController
   end
 
   def show
-     @message = "issues show action"
+    #  @message = "issues show action"
+      @issue = Issue.find_by(id: params[:id])
       render "show.json.jb"
     end
 end

@@ -1,3 +1,7 @@
 {
-  message: @message
+  # message: @message
+  id: @issue.id,
+  topic: @issue.topic,
+  stance: @issue.stance,
+  candidate_id: @issue.candidate_id
 }
