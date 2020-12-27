@@ -10,4 +10,24 @@ class Api::UsersController < ApplicationController
     @user = User.find_by(id: params[:id])
     render "show.json.jb"
   end
+
+  def create
+    # @message = "users create action"
+    @user = User.new(
+      first_name: params[:first_name],
+      last_name: params[:last_name],
+      email: params[:email],
+      age: params[:age],
+      gender: params[:gender],
+      party_registered_to: params[:party_registered_to],
+      county: params[:county],
+      race: params[:race],
+      ethnicity: params[:ethnicity],
+      post_id: params[:post_id],
+    )
+    @user.save
+    render "show.json.jb"
+  end
+
+  
 end
