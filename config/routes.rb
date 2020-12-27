@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   namespace :api do
     
     get "/candidates/" => "candidates#index"
+    get "/candidates/:id" => "candidates#show"
 
   end
 end
