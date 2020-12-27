@@ -1,6 +1,7 @@
 class Api::IssuesController < ApplicationController
   def index
-    @message = "issues index action"
+    # @message = "issues index action"
+    @issues = Issue.all
     render "index.json.jb"
   end
 
