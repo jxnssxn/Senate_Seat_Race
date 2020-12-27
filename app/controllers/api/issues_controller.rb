@@ -4,4 +4,8 @@ class Api::IssuesController < ApplicationController
     render "index.json.jb"
   end
 
+  def show
+     @message = "issues show action"
+      render "show.json.jb"
+    end
 end

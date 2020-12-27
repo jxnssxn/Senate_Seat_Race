@@ -9,7 +9,7 @@ Rails.application.routes.draw do
     get "/candidates/:id" => "candidates#show"
 
     get "/issues/" => "issues#index"
- 
+    get "/issues/:id" => "issues#show"
 
 
   end
