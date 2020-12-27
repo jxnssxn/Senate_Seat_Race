@@ -29,5 +29,9 @@ class Api::UsersController < ApplicationController
     render "show.json.jb"
   end
 
-  
+  def update
+    @message = "users update action"
+    render "show.json.jb"
+  end
+
 end
