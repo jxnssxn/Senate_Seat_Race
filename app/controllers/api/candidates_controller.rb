@@ -2,7 +2,7 @@ class Api::CandidatesController < ApplicationController
 
 
   def index
-    @message = "candidate index"
+    @candidates = Candidate.all
     render "index.json.jb"
   end
 end

@@ -1,3 +1,14 @@
+@candidates.map do |candidate|
 {
-  message: @message
+  # message: @message
+  first_name: candidate.first_name,
+  last_name: candidate.last_name,
+  email: candidate.email,
+  age: candidate.age,
+  gender: candidate.gender,
+  party_registered_to: candidate.party_registered_to,
+  issues_id: candidate.issues_id,
+  thumbs_up: candidate.thumbs_up,
+  thumbs_down: candidate.thumbs_down
 }
+end
