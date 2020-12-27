@@ -8,5 +8,9 @@ Rails.application.routes.draw do
     get "/candidates/" => "candidates#index"
     get "/candidates/:id" => "candidates#show"
 
+    get "/issues/" => "issues#index"
+ 
+
+
   end
 end
