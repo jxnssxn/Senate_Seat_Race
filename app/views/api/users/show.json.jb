@@ -1,14 +1,14 @@
   {
-    message: @message
-  #  id: @user.id,
-  #  first_name: @user.first_name,
-  #  last_name: @user.last_name,
-  #  email: @user.email,
-  #  age: @user.age,
-  #  gender: @user.gender,
-  #  party_registered_to: @user.party_registered_to,
-  #  county: @user.county,
-  #  race: @user.race,
-  #  ethnicity: @user.ethnicity,
-  #  post_id: @user.post_id
+    # message: @message
+   id: @user.id,
+   first_name: @user.first_name,
+   last_name: @user.last_name,
+   email: @user.email,
+   age: @user.age,
+   gender: @user.gender,
+   party_registered_to: @user.party_registered_to,
+   county: @user.county,
+   race: @user.race,
+   ethnicity: @user.ethnicity,
+   post_id: @user.post_id
   }

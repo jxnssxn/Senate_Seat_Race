@@ -30,8 +30,21 @@ class Api::UsersController < ApplicationController
   end
 
   def update
-    @message = "users update action"
+    # @message = "users update action"
+    @user = User.find_by(id: params[:id])
+      @user.first_name = params[:first_name]
+      @user.last_name = params[:last_name]
+      @user.email = params[:email]
+      @user.age = params[:age]
+      @user.gender = params[:gender]
+      @user.party_registered_to = params[:party_registered_to]
+      @user.county = params[:county]
+      @user.race = params[:race]
+      @user.ethnicity = params[:ethnicity]
+      @user.post_id = params[:post_id]
+    @user.save
     render "show.json.jb"
   end
+  
 
 end
