@@ -11,6 +11,7 @@
    race: @user.race,
    ethnicity: @user.ethnicity,
    post_id: @user.post_id,
+   image: @user.image,
   #  password: @user.password_digest
   #  password_confirmation: @user.password_confirmation
   }

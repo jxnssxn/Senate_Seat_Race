@@ -9,6 +9,7 @@
   party_registered_to: candidate.party_registered_to,
   issues_id: candidate.issues_id,
   thumbs_up: candidate.thumbs_up,
-  thumbs_down: candidate.thumbs_down
+  thumbs_down: candidate.thumbs_down,
+  image: candidate.image
 }
 end

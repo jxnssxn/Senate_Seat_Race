@@ -24,6 +24,7 @@ class Api::UsersController < ApplicationController
       race: params[:race],
       ethnicity: params[:ethnicity],
       post_id: params[:post_id],
+      image: params[:image],
       password: params[:password],
       password_confirmation: params[:password_confirmation]
     )
