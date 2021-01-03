@@ -17,16 +17,16 @@ User.create!(
 )
 # ------------{{Candidate create}}------------
 Candidate.create(
-full_name: "Raphael G. Warnock", last_name: "Warnock", email: "info@warnock.com", age: 51, gender: "M", party_registered_to: "Democrat", issues_id: 1, thumbs_up: 53, thumbs_down: 3, image: "app/assets/images/merlin_181303653_2b7838a4-b24f-4153-8012-00d6873a8f4f-articleLarge.jpg"
+full_name: "Raphael G. Warnock", last_name: "Warnock", email: "info@warnock.com", age: 51, gender: "M", party_registered_to: "Democrat", issues_id: 1, thumbs_up: 53, thumbs_down: 3, image: "https://www.gannett-cdn.com/presto/2020/10/26/USAT/24706bf7-270d-46eb-9121-762d0dec7704-GTY_1229202423.jpg?width=660&height=440&fit=crop&format=pjpg&auto=webp"
 )
 Candidate.create(
-full_name: "Jon Ossoff", last_name: "Ossoff", email: "info@electjon.com", age: 33, gender: "M", party_registered_to: "Democrat", issues_id: 2, thumbs_up: 49,thumbs_down: 3, image: "app/assets/images/GettyImages1282925380-054e2750-7aab-433c-b456-f5e5d03f5da6.jpg"
+full_name: "Jon Ossoff", last_name: "Ossoff", email: "info@electjon.com", age: 33, gender: "M", party_registered_to: "Democrat", issues_id: 2, thumbs_up: 49,thumbs_down: 3, image: "https://pbs.twimg.com/profile_images/1334232158207168515/K-i3xjEK.jpg"
 )
 Candidate.create(
-  full_name: "David Perdue", last_name: "Perdue", email: "info@perdue.gov", age: 70, gender: "M", party_registered_to: "Republican", issues_id:3, thumbs_up: 12, thumbs_down:30, image: "app/assets/images/GettyImages-1229608616.jpg"
+  full_name: "David Perdue", last_name: "Perdue", email: "info@perdue.gov", age: 70, gender: "M", party_registered_to: "Republican", issues_id:3, thumbs_up: 12, thumbs_down:30, image: "https://media3.s-nbcnews.com/j/newscms/2020_48/3431011/201125-david_perdue-mc-1313_cb5780c62237fbfebd446ea807170c06.nbcnews-fp-1200-630.JPG"
 )
 Candidate.create(
-full_name: "Kelly Leoffler", last_name: "Leoffler", email: "info@k.loeffler.gov", age:50, gender: "F", party_registered_to: "Republican", issues_id: 4, thumbs_up: 12, thumbs_down: 33, image: "app/assets/images/im-269161.jpeg"
+full_name: "Kelly Leoffler", last_name: "Leoffler", email: "info@k.loeffler.gov", age:50, gender: "F", party_registered_to: "Republican", issues_id: 4, thumbs_up: 12, thumbs_down: 33, image: "https://thehill.com/sites/default/files/loefflerkelly_010620gn5_lead.jpg"
 )
 # ------------{{Issues create}}------------
 Issue.create!(
