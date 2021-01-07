@@ -8,5 +8,9 @@
   issues_id: @candidate.issues_id,
   thumbs_up: @candidate.thumbs_up,
   thumbs_down: @candidate.thumbs_down,
-  image: @candidate.image
+  image: @candidate.image,
+  # issue_id: @issue.id,
+  # topic: @issue.topic,
+  # stance: @issue.stance,
+  # candidate_id: @issue.candidate_id
 }

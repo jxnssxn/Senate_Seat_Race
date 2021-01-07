@@ -8,6 +8,8 @@ class Api::CandidatesController < ApplicationController
 
   def show
     @candidate = Candidate.find_by(id: params[:id])
+    @issues = Issue.where(candidate_id: @candidate.id)
+    p @issues
     render "show.json.jb"
   end
   
