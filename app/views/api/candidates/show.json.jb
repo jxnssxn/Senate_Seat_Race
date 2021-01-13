@@ -9,6 +9,8 @@
   thumbs_up: @candidate.thumbs_up,
   thumbs_down: @candidate.thumbs_down,
   image: @candidate.image,
+  bio: @candidate.bio,
+  site: @candidate.site
   # issue_id: @issue.id,
   # topic: @issue.topic,
   # stance: @issue.stance,

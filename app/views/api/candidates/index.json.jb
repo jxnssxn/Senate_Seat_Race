@@ -10,6 +10,8 @@
   issues_id: candidate.issues_id,
   thumbs_up: candidate.thumbs_up,
   thumbs_down: candidate.thumbs_down,
-  image: candidate.image
+  image: candidate.image,
+  bio: candidate.bio,
+  site: candidate.site
 }
 end
