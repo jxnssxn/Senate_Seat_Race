@@ -206,7 +206,7 @@ DEPENDENCIES
   rails (~> 6.0.3, >= 6.0.3.4)
   sass-rails (>= 6)
   seed_dump
-  sqlite3 (~> 1.4)
+  sqlite3
   tzinfo-data
   web-console (>= 3.3.0)
 
