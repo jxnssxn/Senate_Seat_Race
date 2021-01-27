@@ -6,7 +6,8 @@ User.create!([
 
   {first_name: "Jenny", last_name: "Marigold", email: "jenny@block.com", age: 27, gender: "F", party_registered_to: "Democrat", county: "Telfair", race: "White", ethnicity: "European", post_id: , password_digest: "$2a$12$cORYYu.e2uhiPU55pOA36ewSK8m9d89maRLGsBFaayQNtbZxFJWgG", image: "app/assets/images/2134315.jpeg"},
 
-  {first_name: "Frankie", last_name: "DeJong", email: "frank@dejonng.com", age: 24, gender: "M", party_registered_to: "Republican", county: "Telfiar", race: "White", ethnicity: "American", post_id: , password_digest: "$2a$12$ODt/4a60xEkWoc0e..TZVOBAMNTewnRkR8NxCiKCXvwXgFOJat8yG", image: "app/assets/images/Ben-Chisholm-323569.jpeg"},
+  {first_name: "Frankie", last_name: "DeJong", email: "frank@dejonng.com", age: 24, gender: "M", party_registered_to: "Republican", county: "Telfiar", race: "White", ethnicity: "American", post_id: , password_digest: "$2a$12$ODt/4a60xEkWoc0e..TZVOBAMNTewnRkR8NxCiKCXvwXgFOJat8yG", image: "app/assets/images/Ben-Chisholm-323569.jpeg",
+    
   {first_name: "Maria", last_name: "Poyet", email: "maria@pt.com", age: 32, gender: "F", party_registered_to: "Republican", county: "Fulton", race: "Asian", ethnicity: "Philipino", post_id: , password_digest: "$2a$12$6l5XfLdDBGE1sF3/TFVnjuUlPGEDoHZHaWWtKbFdUIlC6caU3RGqy", image: "app/assets/images/5784611880_2a5a23033f.jpg"},
 
   # {first_name: "chorizo", last_name: , email: "chorizo@burrito.com", age: , gender: , party_registered_to: , county: , race: , ethnicity: , post_id: , password_digest: "$2a$12$j4k9RKAMZyKtX8c5GvnGyORoihbS8m7jqG87IIotYeJXmAZMFDRxu", image: },
